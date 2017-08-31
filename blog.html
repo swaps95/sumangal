@@ -187,28 +187,28 @@ your child’s future.</h3>
                         <h3>Recent Comments</h3>
                         <div class="row">
                             <div class="col-sm-12">
-                                <div class="single_comments">
-                                    <img src="images/blog/avatar3.png" alt=""  />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
-                                    <div class="entry-meta small muted">
-                                        <span>By <a href="#">Alex</a></span <span>On <a href="#">Creative</a></span>
+                                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label>Name *</label>
+                                            <input type="text" class="form-control" required="required">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Email *</label>
+                                            <input type="email" class="form-control" required="required">
+                                        </div>
+                                        <div class="form-group">
+                                              
+											 <div class="form-group">
+                                            <button type="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button>
+                                        </div>
+                                        </div>                    
                                     </div>
+                                     
                                 </div>
-                                <div class="single_comments">
-                                    <img src="images/blog/avatar3.png" alt=""  />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
-                                    <div class="entry-meta small muted">
-                                        <span>By <a href="#">Alex</a></span <span>On <a href="#">Creative</a></span>
-                                    </div>
-                                </div>
-                                <div class="single_comments">
-                                    <img src="images/blog/avatar3.png" alt=""  />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
-                                    <div class="entry-meta small muted">
-                                        <span>By <a href="#">Alex</a></span <span>On <a href="#">Creative</a></span>
-                                    </div>
-                                </div>
-                                
+                            </form>     
+    							
                             </div>
                         </div>                     
                     </div><!--/.recent comments-->
@@ -219,123 +219,102 @@ your child’s future.</h3>
                         <div class="row">
                             <div class="col-sm-6">
                                 <ul class="blog_category">
-                                    <li><a href="#">Computers <span class="badge">04</span></a></li>
-                                    <li><a href="#">Smartphone <span class="badge">10</span></a></li>
-                                    <li><a href="#">Gedgets <span class="badge">06</span></a></li>
-                                    <li><a href="#">Technology <span class="badge">25</span></a></li>
+                                    <li><a href="#">Home <span class="badge">01</span></a></li>
+                                    <li><a href="#">About us <span class="badge">02</span></a></li>
+                                    <li><a href="#">Contact us <span class="badge">03</span></a></li>
+                                    <li><a href="#">Gyanaeocolgy <span class="badge">04</span></a></li>
+									<li><a href="#">Paediatrician <span class="badge">05</span></a></li>
+									
                                 </ul>
                             </div>
                         </div>                     
                     </div><!--/.categories-->
     				
-    				<div class="widget archieve">
-                        <h3>Archieve</h3>
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <ul class="blog_archieve">
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> December 2013 <span class="pull-right">(97)</span></a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> November 2013 <span class="pull-right">(32)</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> October 2013 <span class="pull-right">(19)</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> September 2013 <span class="pull-right">(08)</a></li>
-                                </ul>
-                            </div>
-                        </div>                     
-                    </div><!--/.archieve-->
+    				 
     				
                     <div class="widget tags">
                         <h3>Tag Cloud</h3>
                         <ul class="tag-cloud">
-                            <li><a class="btn btn-xs btn-primary" href="#">Apple</a></li>
-                            <li><a class="btn btn-xs btn-primary" href="#">Barcelona</a></li>
-                            <li><a class="btn btn-xs btn-primary" href="#">Office</a></li>
-                            <li><a class="btn btn-xs btn-primary" href="#">Ipod</a></li>
-                            <li><a class="btn btn-xs btn-primary" href="#">Stock</a></li>
-                            <li><a class="btn btn-xs btn-primary" href="#">Race</a></li>
-                            <li><a class="btn btn-xs btn-primary" href="#">London</a></li>
-                            <li><a class="btn btn-xs btn-primary" href="#">Football</a></li>
-                            <li><a class="btn btn-xs btn-primary" href="#">Porche</a></li>
-                            <li><a class="btn btn-xs btn-primary" href="#">Gadgets</a></li>
+                            <li><a class="btn btn-xs btn-primary" href="#">Home</a></li>
+                            <li><a class="btn btn-xs btn-primary" href="#">Gynaeocology</a></li>
+                            <li><a class="btn btn-xs btn-primary" href="#">Paediatrician</a></li>
+                            <li><a class="btn btn-xs btn-primary" href="#">Doctors</a></li>
+                            <li><a class="btn btn-xs btn-primary" href="#">Blog</a></li>
+                            <li><a class="btn btn-xs btn-primary" href="#">Contact</a></li>
+                            <li><a class="btn btn-xs btn-primary" href="#">Packages</a></li>
+                            
                         </ul>
                     </div><!--/.tags-->
     				
-    				<div class="widget blog_gallery">
-                        <h3>Our Gallery</h3>
-                        <ul class="sidebar-gallery">
-                            <li><a href="#"><img src="images/blog/gallery1.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/blog/gallery2.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/blog/gallery3.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/blog/gallery4.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/blog/gallery5.png" alt="" /></a></li>
-                            <li><a href="#"><img src="images/blog/gallery6.png" alt="" /></a></li>
-                        </ul>
-                    </div><!--/.blog_gallery-->
-    			</aside>  
+    				 
+    					
+    				
+                </aside>     
+
             </div><!--/.row-->
-        </div>
+
+         </div><!--/.blog-->
+ 
+                    </div>
+                </div>
     </section><!--/#blog-->
+
 
     <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="widget">
-                        <h3>Company</h3>
+                        <h3>Sumangal</h3>
                         <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">We are hiring</a></li>
-                            <li><a href="#">Meet the team</a></li>
-                            <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Contact us</a></li>
+                         Being a comprehensive hospital that provides remedy and emergency offerings for a whole variety of obstetric and gynaecological conditions. Our decades of experiences and specialist doctors ensure that all our patient’s needs are well approached, providing with necessity support to their family during their period of illness and recovery. Our mission is to be one of the leading child and women care centre. Each person is unique, so as their physical health requirements. We are trying hard to ensure that our patient’s receive the compassionate and personalized approach in their treatment. 
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="widget">
                         <h3>Support</h3>
                         <ul>
-                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Gyanaecology</a></li>
+                            <li><a href="#">Paediatrician</a></li>
+                            <li><a href="#">Doctor</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Refund policy</a></li>
-                            <li><a href="#">Ticket system</a></li>
-                            <li><a href="#">Billing system</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="widget">
                         <h3>Developers</h3>
-                        <ul>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">SEO Marketing</a></li>
-                            <li><a href="#">Theme</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Email Marketing</a></li>
-                            <li><a href="#">Plugin Development</a></li>
-                            <li><a href="#">Article Writing</a></li>
-                        </ul>
+                        <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label>Name *</label>
+                                            <input type="text" class="form-control" required="required">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Email *</label>
+                                            <input type="email" class="form-control" required="required">
+                                        </div>
+                                        <div class="form-group">
+                                              
+											 <div class="form-group">
+                                            <button type="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button>
+                                        </div>
+                                        </div>                    
+                                    </div>
+                                     
+                                </div>
+                            </form> 
                     </div>    
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Our Partners</h3>
-                        <ul>
-                            <li><a href="#">Adipisicing Elit</a></li>
-                            <li><a href="#">Eiusmod</a></li>
-                            <li><a href="#">Tempor</a></li>
-                            <li><a href="#">Veniam</a></li>
-                            <li><a href="#">Exercitation</a></li>
-                            <li><a href="#">Ullamco</a></li>
-                            <li><a href="#">Laboris</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+                 
             </div>
         </div>
     </section><!--/#bottom-->
@@ -344,14 +323,16 @@ your child’s future.</h3>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                    &copy; 2016 <a target="_blank" href="http://sumangal.com/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">SUMANGAL </a>. All Rights Reserved.
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Doctors</a></li>
+                        <li><a href="#">Gyanaecology</a></li>
+						<li><a href="#">Paediatrician</a></li>
+
                     </ul>
                 </div>
             </div>
